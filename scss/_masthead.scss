@@ -4,9 +4,7 @@ header.masthead {
   // replace the masthead.jpg image in the /img directory to change the image
   // if the image name change, make sure to update the url path below!
   position: relative;
-  background-color: black;
-  height: 75vh;
-  min-height: 25rem;
+  background-color: $white;
   width: 100%;
   overflow: hidden;
 
@@ -134,6 +132,13 @@ header.masthead {
     h2 {
       font-size: 1.8rem;
     }
+
+    video {
+      min-width: auto;
+      min-height: 100%;
+      width: auto;
+      height: 100%;
+    }
   }
 
   video {
@@ -141,8 +146,8 @@ header.masthead {
     top: 50%;
     left: 50%;
     min-width: 100%;
-    min-height: 100%;
-    width: auto;
+    min-height: auto;
+    width: 100%;
     height: auto;
     z-index: 0;
     -ms-transform: translateX(-50%) translateY(-50%);
@@ -151,12 +156,14 @@ header.masthead {
     transform: translateX(-50%) translateY(-50%);
   }
 
-  .container {
+  .container,
+  .container-fluid {
     position: relative;
     z-index: 2;
   }
 
-  header .overlay {
+  .overlay {
+    //background-color: linear-gradient(to bottom, #{fade-out(#242222, .4)} 0%, #{fade-out(#242222, .4)} 100%);
     position: absolute;
     top: 0;
     left: 0;
@@ -166,5 +173,4 @@ header.masthead {
     opacity: 0.5;
     z-index: 1;
   }
-
 }
