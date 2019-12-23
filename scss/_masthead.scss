@@ -10,7 +10,7 @@ header.masthead {
 
   @include media-breakpoint-down(sm) {
     background: linear-gradient(to bottom, #{fade-out($secondary, .4)} 0%, #{fade-out($secondary, .4)} 100%),
-    url('https://1.bp.blogspot.com/-Xsnk0lQGhC4/Xfap0STdEyI/AAAAAAAAHfY/8_gWx05QTEssYlH1HtJHIqA4Hu9K1OmjACLcBGAsYHQ/s1600/bg-masterhead3.jpg');
+    url('../img/m_bg.jpg');
   }
 
   @include media-breakpoint-up(xl) {
@@ -175,8 +175,4 @@ header.masthead {
       height: 100%;
     }
   }
-
-  
-
-  
 }
