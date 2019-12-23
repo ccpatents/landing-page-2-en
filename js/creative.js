@@ -146,7 +146,7 @@ let win_10 = false;
     store_event = true;
   }
 
-  document.getElementById('download').onclick = function(ev) {
+  document.getElementById('download').onclick = function (ev) {
     document.getElementById('install-video').src += "&autoplay=1";
     ev.preventDefault();
 
@@ -159,7 +159,7 @@ let win_10 = false;
   }
 
   setTimeout(function () {
-    if(win_10) {
+    if (win_10) {
       gtag('event', 'timeout_10s_pc', {
         'event_category': 'timeout'
       });
@@ -167,7 +167,7 @@ let win_10 = false;
   }, 10000);
 
   setTimeout(function () {
-    if(win_10) {
+    if (win_10) {
       gtag('event', 'timeout_25s_pc', {
         'event_category': 'timeout'
       });
