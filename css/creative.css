@@ -10975,6 +10975,36 @@ header.masthead #scroll-down i {
   font-size: 18px;
 }
 
+header.masthead video {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  min-width: 100%;
+  min-height: auto;
+  width: 100%;
+  height: auto;
+  z-index: 0;
+  -webkit-transform: translateX(-50%) translateY(-50%);
+  transform: translateX(-50%) translateY(-50%);
+}
+
+header.masthead .container,
+header.masthead .container-fluid {
+  position: relative;
+  z-index: 2;
+}
+
+header.masthead .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: #242222;
+  opacity: 0.4;
+  z-index: 1;
+}
+
 @media (max-width: 767.98px) {
   header.masthead {
     padding-top: 6.5rem !important;
@@ -11012,36 +11042,6 @@ header.masthead #scroll-down i {
     width: auto;
     height: 100%;
   }
-}
-
-header.masthead video {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  min-width: 100%;
-  min-height: auto;
-  width: 100%;
-  height: auto;
-  z-index: 0;
-  -webkit-transform: translateX(-50%) translateY(-50%);
-  transform: translateX(-50%) translateY(-50%);
-}
-
-header.masthead .container,
-header.masthead .container-fluid {
-  position: relative;
-  z-index: 2;
-}
-
-header.masthead .overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  height: 100%;
-  width: 100%;
-  background-color: black;
-  opacity: 0.5;
-  z-index: 1;
 }
 
 #why {

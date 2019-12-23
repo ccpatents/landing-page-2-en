@@ -101,46 +101,6 @@ header.masthead {
     }
   }
 
-  @include media-breakpoint-down(sm) {
-    padding-top: 6.5rem !important;
-
-    h1 {
-      font-size: 2.5rem;
-    }
-
-    h2 {
-      font-size: 1.5rem;
-    }
-
-    video {
-      display: none;
-    }
-  }
-
-  @include media-breakpoint-up(lg) {
-    height: 75vh;
-    min-height: 40rem;
-    padding-top: $navbar-height;
-    padding-bottom: 0;
-  }
-
-  @include media-breakpoint-up(xl) {
-    h1 {
-      font-size: 3.3rem;
-    }
-
-    h2 {
-      font-size: 1.8rem;
-    }
-
-    video {
-      min-width: auto;
-      min-height: 100%;
-      width: auto;
-      height: 100%;
-    }
-  }
-
   video {
     position: absolute;
     top: 50%;
@@ -169,8 +129,54 @@ header.masthead {
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: black;
-    opacity: 0.5;
+    background-color: #242222;
+    opacity: 0.4;
     z-index: 1;
   }
+
+  @include media-breakpoint-down(sm) {
+    padding-top: 6.5rem !important;
+
+    h1 {
+      font-size: 2.5rem;
+    }
+
+    h2 {
+      font-size: 1.5rem;
+    }
+
+    video {
+      display: none;
+    }
+  }
+
+  @include media-breakpoint-up(lg) {
+    height: 75vh;
+    min-height: 40rem;
+    padding-top: $navbar-height;
+    padding-bottom: 0;
+  }
+
+  
+
+  @include media-breakpoint-up(xl) {
+    h1 {
+      font-size: 3.3rem;
+    }
+
+    h2 {
+      font-size: 1.8rem;
+    }
+
+    video {
+      min-width: auto;
+      min-height: 100%;
+      width: auto;
+      height: 100%;
+    }
+  }
+
+  
+
+  
 }
