@@ -126,7 +126,8 @@ header.masthead {
   }
 
   @include media-breakpoint-down(sm) {
-    padding-top: 7.5rem !important;
+    padding-top: 6.5rem !important;
+    padding-bottom: 0;
 
     h1 {
       margin-top: 1rem;
@@ -137,9 +138,20 @@ header.masthead {
       font-size: 1.5rem;
     }
 
+    .overlay {
+      background-image: url('../img/m_bg.jpg');
+      background-position: center;
+      background-repeat: no-repeat;
+      background-attachment: scroll;
+      background-size: cover;
+      opacity: 1;
+    }
+
     video {
       position: relative;
-      top: 5rem;
+      margin-top: 7.5rem;
+      padding: 0;
+      z-index: 5;
     }
   }
 
@@ -150,7 +162,7 @@ header.masthead {
     padding-bottom: 0;
   }
 
-  
+
 
   @include media-breakpoint-up(xl) {
     h1 {
