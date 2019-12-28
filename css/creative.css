@@ -10899,6 +10899,10 @@ header.masthead p {
   text-shadow: 1px 1px 1px black;
 }
 
+header.masthead .btn {
+  text-transform: none !important;
+}
+
 header.masthead .btn:focus {
   outline: none !important;
   -webkit-box-shadow: none !important;

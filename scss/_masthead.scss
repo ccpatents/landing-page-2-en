@@ -28,6 +28,7 @@ header.masthead {
   }
 
   .btn {
+    text-transform: none !important;
     &:focus {
       outline: none !important;
       -webkit-box-shadow: none !important;
