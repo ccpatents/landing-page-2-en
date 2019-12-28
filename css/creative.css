@@ -11000,7 +11000,7 @@ header.masthead .overlay {
   }
   header.masthead h2 {
     font-size: 1.5rem;
-    padding: 0 3.3rem;
+    padding: 0 3.5rem;
   }
   header.masthead .overlay {
     background: -webkit-gradient(linear, left top, left bottom, from(rgba(85, 85, 85, 0.5)), to(rgba(85, 85, 85, 0.5))), url("../img/m_bg.jpg");
