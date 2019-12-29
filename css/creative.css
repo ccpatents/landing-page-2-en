@@ -10872,6 +10872,7 @@ hr.light {
 }
 
 header.masthead {
+  min-height: 60vh;
   padding-bottom: calc(10rem - 72px);
   position: relative;
   background-color: #fff;
@@ -10994,7 +10995,6 @@ header.masthead .overlay {
 
 @media (max-width: 767.98px) {
   header.masthead {
-    min-height: 45rem;
     padding-top: 6.5rem !important;
     padding-bottom: 2rem;
   }
@@ -11025,7 +11025,7 @@ header.masthead .overlay {
 
 @media (min-width: 992px) {
   header.masthead {
-    height: 75vh;
+    height: 70vh;
     min-height: 40rem;
     padding-top: 72px;
     padding-bottom: 0;
@@ -11056,6 +11056,7 @@ header.masthead .overlay {
 #why b {
   color: #fff;
   background-color: #328ff2;
+  padding: 0 2px;
 }
 
 #why h2 {
