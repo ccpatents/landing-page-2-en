@@ -11062,11 +11062,21 @@ header.masthead .overlay {
   color: #000000;
   font-size: 2rem;
   font-weight: 900;
+  margin-bottom: 1rem;
 }
 
 #why p {
   font-size: 1.1rem;
-  margin-bottom: .1rem;
+  margin-bottom: .5rem;
+}
+
+@media (max-width: 991.98px) {
+  #why h2 {
+    font-size: 1.6rem;
+  }
+  #why p {
+    margin-bottom: 1rem;
+  }
 }
 
 #features {
