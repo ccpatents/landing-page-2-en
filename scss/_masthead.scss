@@ -124,6 +124,7 @@ header.masthead {
   }
 
   @include media-breakpoint-down(sm) {
+    min-height: 45rem;
     padding-top: 6.5rem !important;
     padding-bottom: 2rem;
 
