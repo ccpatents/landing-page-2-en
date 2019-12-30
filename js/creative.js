@@ -1,5 +1,6 @@
 let scroll_1000_event = false;
 let share_event = false;
+let social_event = false;
 let enlarge_event = false;
 let store_event = false;
 let semi_download_event = false;
@@ -19,7 +20,7 @@ let win_10 = false;
   if (navigator.platform) {
     if (filter.indexOf(navigator.platform.toLowerCase()) < 0) {
       //mobile
-      document.getElementById("share-button").style.display = "block";
+      document.getElementById("share-button").style.display = "inline-block";
       document.getElementById("store-area2").style.display = "none";
       document.getElementById("win10_warn").style.display = "block";
     } else {
@@ -111,6 +112,15 @@ let win_10 = false;
 
     WebShare();
   }*/
+
+  document.getElementById('socials').onclick = function () {
+    if (!share_event) {
+      gtag('event', 'share', {
+        'event_category': 'button'
+      });
+      share_event = true;
+    }
+  }
 
   document.getElementById('store-button1').onclick = function () {
     let gtag_ignore = true;
