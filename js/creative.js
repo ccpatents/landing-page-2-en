@@ -101,7 +101,7 @@ let win_10 = false;
   //$('.popup-img').popupimg();
 
   //document.querySelector('#share').addEventListener('click', WebShare);
-  document.getElementById('share').onclick = function () {
+  /*document.getElementById('share').onclick = function () {
     if (!share_event) {
       gtag('event', 'share', {
         'event_category': 'button'
@@ -110,7 +110,7 @@ let win_10 = false;
     }
 
     WebShare();
-  }
+  }*/
 
   document.getElementById('store-button1').onclick = function () {
     let gtag_ignore = true;
@@ -182,7 +182,7 @@ let win_10 = false;
 })(jQuery); // End of use strict
 
 
-async function WebShare() {
+/*async function WebShare() {
   if (navigator.share === undefined) {
     return;
   }
@@ -199,4 +199,4 @@ async function WebShare() {
   } catch (error) {
     return;
   }
-}
+}*/
