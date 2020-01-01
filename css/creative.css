@@ -11018,7 +11018,7 @@ header.masthead .overlay {
   header.masthead video {
     position: relative;
     margin-top: 7.5rem;
-    padding: 0;
+    padding: 0 1.5rem;
     z-index: 5;
   }
 }
