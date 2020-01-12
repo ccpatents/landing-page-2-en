@@ -10892,6 +10892,12 @@ header.masthead h2 {
   text-shadow: 5px 3px 3px #333333;
 }
 
+header.masthead h3 {
+  font-weight: 800;
+  font-size: 1.3rem;
+  text-shadow: 5px 3px 3px #333333;
+}
+
 header.masthead p {
   font-size: 0.95rem;
   padding-bottom: .5rem;
