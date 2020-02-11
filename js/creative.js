@@ -141,7 +141,7 @@ let bg_video = document.getElementById("bg_video");
     }
 
     if (!store_event && !gtag_ignore) {
-      gtag('event', 'click_store', {
+      gtag('event', 'store', {
         'event_category': 'button'
       });
     }
@@ -158,7 +158,7 @@ let bg_video = document.getElementById("bg_video");
     }
 
     if (!store_event && !gtag_ignore) {
-      gtag('event', 'click_store', {
+      gtag('event', 'store', {
         'event_category': 'button'
       });
     }
@@ -170,7 +170,7 @@ let bg_video = document.getElementById("bg_video");
     ev.preventDefault();
 
     if (!semi_download_event) {
-      gtag('event', 'semi_download', {
+      gtag('event', 'install', {
         'event_category': 'button'
       });
     }
